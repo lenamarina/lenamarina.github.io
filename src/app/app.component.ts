@@ -15,7 +15,7 @@ export class AppComponent {
     {
       year: 'Jan 2019 - heute',
       title: 'BMW AG Landshut über Hays',
-      img: `<img src="../assets/images/bmw-group.png"/> <img src="../assets/images/hays.png"/>`,
+      img: `<img src="../assets/images/BMW.png"/>`,
       text: [
         'Rolle Softwareentwicklerin Frontend Verantwortlich für Konzeption, Implementierung und Qualitätssicherung von Applikationen im Produktionsumfeld Verwendung von TypeScript, Nodejs/npm, Karma,  Jasmin, Git, Postman, OpenShift, Continuous Delivery'
       ]
@@ -23,7 +23,7 @@ export class AppComponent {
     {
       year: 'März 2018 - Dez 2018',
       title: 'BMW AG Landshut über toptecs',
-      img: `<img src="../assets/images/bmw-group.png"/> <img src="../assets/images/toptecs.gif"/>`,
+      img: `<img src="../assets/images/BMW.png"/>`,
       text: [
         'Rolle Softwareentwicklerin Frontend Verantwortlich für Konzeption, Implementierung, Qualitätssicherung der Applikationen „Anlagenhistorie“ Verwendung von TypeScript, Nodejs/npm, Karma,  Jasmin, Git, Postman, OpenShift, Continuous Delivery',
         'Rolle IT-Architektin Smart Maintenance - Subprodukt „METIS“ Zuständig für Konzeption, Abstimmung mit dem Fachbereich, Steuerung des Dienstleisters sowie Präsentation auf der BMW IT-Messe',
@@ -33,7 +33,7 @@ export class AppComponent {
     {
       year: 'Dez 2014 - Feb 2015',
       title: 'BMW AG Dingolfing',
-      img: `<img src="../assets/images/bmw-group.png"/>`,
+      img: `<img src="../assets/images/BMW.png"/>`,
       text: [
         'Praktikum in der Abteilung Qualitätsmanagement der Montage Eigenverantwortliche Umsetzung des „Q-Info Portals“ zur Darstellung der Qualitätskennzahlen, Abstimmung und Erstellung der Qualitätswochenberichte inklusive Verteilung an BMW Qualitätsverantwortliche, Konsolidierung der Qualitätssicherung-Informationen für den LeiterkreisVerwendung von HTML5, CSS3, ECMAScript'
       ]
@@ -107,7 +107,7 @@ export class AppComponent {
     {
       year: 'Backend',
       title: 'Tools',
-      img: `<img src="../assets/images/openshift-logo-black-and-white.png"/><img src="../assets/images/openstack.png"/><img src="../assets/images/docker-logo-black-and-white.png"/>`,
+      img: `<img src="../assets/images/openshift-logo-black-and-white.png" styles="padding-right=20px;"/><img src="../assets/images/openstack.png"/><img src="../assets/images/docker-logo-black-and-white.png"/>`,
       text: ['']
     },
     {
@@ -117,7 +117,7 @@ export class AppComponent {
       text: ['']
     },
     {
-      year: 'Project',
+      year: 'Projekt',
       title: 'Tools',
       img: `<img src="../assets/images/jira-logo-white.png"/><img src="../assets/images/bitbucket-logo_318-53867.jpg"/><img src="../assets/images/git.png"/><img src="../assets/images/confluence-logo.png"/><img src="../assets/images/scrum.png"/><img src="../assets/images/jenkins-icon-8.png"/>`,
       text: ['']
@@ -135,14 +135,7 @@ export class AppComponent {
     loop: true,
     speed: 100,
     navigation: { nextEl: '.swiper-button-next1', prevEl: '.swiper-button-prev1' },
-    pagination: false /* {
-      el: '.swiper-pagination1',
-      bulletActiveClass: '.swiper-pagination-bullet1-active',
-      bulletClass: 'swiper-pagination-bullet1',
-      renderBullet(index, className) {
-        return '<span class="' + className + '">' + index + '</span>';
-      }
-    } */,
+    pagination: false,
     breakpoints: {
       768: {
         direction: 'horizontal'
@@ -154,7 +147,7 @@ export class AppComponent {
     direction: 'horizontal',
     loop: true,
     speed: 100,
-    navigation: { nextEl: '.swiper-button-next1', prevEl: '.swiper-button-prev1' },
+    navigation: { nextEl: '.swiper-button-next2', prevEl: '.swiper-button-prev2' },
     pagination: false,
     breakpoints: {
       768: {
@@ -167,7 +160,7 @@ export class AppComponent {
     direction: 'horizontal',
     loop: true,
     speed: 100,
-    navigation: { nextEl: '.swiper-button-next1', prevEl: '.swiper-button-prev1' },
+    navigation: { nextEl: '.swiper-button-next3', prevEl: '.swiper-button-prev3' },
     pagination: false,
     breakpoints: {
       768: {
@@ -180,7 +173,7 @@ export class AppComponent {
     direction: 'horizontal',
     loop: true,
     speed: 1000,
-    navigation: { nextEl: '.swiper-button-next1', prevEl: '.swiper-button-prev1' },
+    navigation: { nextEl: '.swiper-button-next4', prevEl: '.swiper-button-prev4' },
     pagination: false,
     breakpoints: {
       768: {
