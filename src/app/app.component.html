@@ -1,0 +1,169 @@
+<section class="section parallax parallax-1">
+  <div class="container-parallax">
+    <h2>Lebenslauf</h2>
+  </div>
+</section>
+<section class="section contact content">
+  <div class="container contact">
+    <div class="timeline contact">
+      <swiper [config]="configContact" class="swiper-container contact">
+        <div class="swiper-wrapper contact">
+          <div
+            class="swiper-slide contact"
+            style="background-image: url('../assets/images/Black.jpg'); height: 300px;"
+            data-year="2011"
+          >
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Lena Schlor</span>
+              <div class="timeline-text">
+                <div>
+                  Angerstraße 12
+                </div>
+                <div>
+                  84163 Marklkofen
+                </div>
+                <div>
+                  +49 160 99064918
+                </div>
+                <div>
+                  <a href="mailto:lenaschlor@gmail.com">lenaschlor@gmail.com</a>
+                </div>
+                <div>
+                  01.10.1991 Landau an der Isar
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</section>
+
+<section class="section parallax parallax-2">
+  <div class="container-parallax">
+    <h2>Berufliche Erfahrungen</h2>
+  </div>
+</section>
+<section class="section noscrolling content">
+  <div class="container noscrolling">
+    <div class="timeline">
+      <swiper [config]="configWork" class="swiper-container noscrolling">
+        <div
+          *ngFor="let slide of workSlides"
+          class="swiper-slide noscrolling"
+          style="background-image: url('../assets/images/Black.jpg');"
+        >
+          <div class="swiper-slide-content">
+            <span class="timeline-year">{{ slide.year }}</span>
+            <div class="inline-text">
+              <div class="timeline-logo" [innerHTML]="slide.img"></div>
+            </div>
+            <h4 class="timeline-title">{{ slide.title }}</h4>
+            <div class="inline-text">
+              <div *ngFor="let text of slide.text" class="timeline-text">
+                {{ text }}
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next1"></div>
+          <div class="swiper-button-prev1"></div>
+          <div class="swiper-pagination1"></div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</section>
+
+<section class="section parallax parallax-3">
+  <div class="container-parallax">
+    <h2>Studium</h2>
+  </div>
+</section>
+<section class="section noscrolling content">
+  <div class="container noscrolling">
+    <div class="timeline">
+      <swiper [config]="configStudy" class="swiper-container noscrolling">
+        <div
+          *ngFor="let slide of studySlides"
+          class="swiper-slide noscrolling"
+          style="background-image: url('../assets/images/Black.jpg');"
+        >
+          <div class="swiper-slide-content">
+            <span class="timeline-year">{{ slide.year }}</span>
+            <div class="inline-text">
+              <div class="timeline-logo" [innerHTML]="slide.img"></div>
+            </div>
+            <h4 class="timeline-title">{{ slide.title }}</h4>
+            <div class="inline-text">
+              <div *ngFor="let text of slide.text" class="timeline-text">
+                {{ text }}
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next1"></div>
+          <div class="swiper-button-prev1"></div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</section>
+<section class="section parallax parallax-4">
+  <div class="container-parallax">
+    <h2>Schulbildung</h2>
+  </div>
+</section>
+<section class="section noscrolling content">
+  <div class="container noscrolling">
+    <div class="timeline">
+      <swiper [config]="schoolConfig" class="swiper-container noscrolling">
+        <div
+          *ngFor="let slide of schoolSlides"
+          class="swiper-slide noscrolling"
+          style="background-image: url('../assets/images/Black.jpg');"
+        >
+          <div class="swiper-slide-content">
+            <span class="timeline-year">{{ slide.year }}</span>
+            <h4 class="timeline-title">{{ slide.title }}</h4>
+            <div class="inline-text">
+              <div *ngFor="let text of slide.text" class="timeline-text">
+                {{ text }}
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next1"></div>
+          <div class="swiper-button-prev1"></div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</section>
+
+<section class="section parallax parallax-5">
+  <div class="container-parallax">
+    <h2>Skills</h2>
+  </div>
+</section>
+<section class="section noscrolling content">
+  <div class="container noscrolling">
+    <div class="timeline">
+      <swiper [config]="skillConfig" class="swiper-container noscrolling">
+        <div
+          *ngFor="let slide of skillSlides"
+          class="swiper-slide noscrolling"
+          style="background-image: url('../assets/images/Black.jpg');"
+        >
+          <div class="swiper-slide-content">
+            <span class="timeline-year">{{ slide.year }}</span>
+            <h4 class="timeline-title">{{ slide.title }}</h4>
+            <div class="inline-text">
+              <div class="timeline-logo" [innerHTML]="slide.img"></div>
+            </div>
+          </div>
+          <div class="swiper-button-next1"></div>
+          <div class="swiper-button-prev1"></div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</section>
