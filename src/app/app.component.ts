@@ -9,7 +9,7 @@ import { Element } from '@angular/compiler';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'LenaChronicals';
+  title = 'lenamarina';
 
   public workSlides = [
     {

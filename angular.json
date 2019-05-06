@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LenaChronicals": {
+    "lenamarina": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/LenaChronicals",
+            "outputPath": "dist/lenamarina",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "LenaChronicals:build"
+            "browserTarget": "lenamarina:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "LenaChronicals:build:production"
+              "browserTarget": "lenamarina:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "LenaChronicals:build"
+            "browserTarget": "lenamarina:build"
           }
         },
         "test": {
@@ -108,7 +108,7 @@
         }
       }
     },
-    "LenaChronicals-e2e": {
+    "lenamarina-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -117,11 +117,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "LenaChronicals:serve"
+            "devServerTarget": "lenamarina:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "LenaChronicals:serve:production"
+              "devServerTarget": "lenamarina:serve:production"
             }
           }
         },
@@ -137,5 +137,5 @@
       }
     }
   },
-  "defaultProject": "LenaChronicals"
+  "defaultProject": "lenamarina"
 }
