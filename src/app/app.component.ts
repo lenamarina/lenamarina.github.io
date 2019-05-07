@@ -13,7 +13,7 @@ export class AppComponent {
 
   public workSlides = [
     {
-      year: 'Jan 2019 - heute',
+      year: 'Januar 2019 - heute',
       title: 'BMW AG Landshut über Hays',
       img: `<img src="../assets/images/BMW.png"/>`,
       text: [
@@ -21,7 +21,7 @@ export class AppComponent {
       ]
     },
     {
-      year: 'März 2018 - Dez 2018',
+      year: 'März 2018 - Dezember 2018',
       title: 'BMW AG Landshut über toptecs',
       img: `<img src="../assets/images/BMW.png"/>`,
       text: [
@@ -31,7 +31,7 @@ export class AppComponent {
       ]
     },
     {
-      year: 'Dez 2014 - Feb 2015',
+      year: 'Dezember 2014 - Februar 2015',
       title: 'BMW AG Dingolfing',
       img: `<img src="../assets/images/BMW.png"/>`,
       text: [
@@ -58,7 +58,7 @@ export class AppComponent {
 
   public studySlides = [
     {
-      year: 'März 2016 – Dez 2017',
+      year: 'März 2016 – Dezember 2017',
       title: 'Master Informatik',
       img: `<img src="../assets/images/HS_LA.jpg"/>`,
       text: [
@@ -67,13 +67,13 @@ export class AppComponent {
       ]
     },
     {
-      year: 'Okt 2016 – Feb 2017',
+      year: 'Oktober 2016 – Februar 2017',
       title: 'Tutorin für Mathematik an der Hochschule für angewandte Wissenschaften Landshut',
       img: `<img src="../assets/images/HS_LA.jpg"/>`,
       text: ['']
     },
     {
-      year: 'Dez 2012 – März 2016',
+      year: 'Dezember 2012 – März 2016',
       title: 'Bachelor Wirtschaftsinformatik',
       img: `<img src="../assets/images/HS_LA.jpg"/>`,
       text: [
@@ -86,12 +86,12 @@ export class AppComponent {
 
   public schoolSlides: Array<any> = [
     {
-      year: 'Sep 2009 – Mai 2011',
+      year: 'September 2009 – Mai 2011',
       title: 'Gymnasium Landau an der Isar',
       text: ['Leistungskurse: Mathe, Kunst Allgemeine Hochschulreife                      (Note 2,5)']
     },
     {
-      year: 'Sep 2002 – Sep 2009',
+      year: 'September 2002 – September 2009',
       title: 'Gymnasium Dingolfing',
       text: ['Mathematischer Zweig']
     }
